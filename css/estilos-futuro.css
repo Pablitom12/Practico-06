@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: url('https://i.pinimg.com/1200x/f1/e0/06/f1e00648a33cd0ad5920a8a1af123c6c.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+h1{
+  font-family:'Press Start 2P',cursive;
+  text-aling:center;
+  color: #00ff00;
+  text-shadow: 0 0 15px rgba(0, 255, 0 , 0.7), 0 0 30px rgba(0, 255, 0, 0.7)
+}
+
+span.text {
+  font-size: 1.5rem;
+  color:#ff00ff;
+  text-shadow: 0 0 10px rgba(255,0,255,0.7), 0 0 20px rgba(255,0 ,255, 0.7)
+}
+
+.datos-container{
+  background:rgba(0,0,0,0.5);
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px
+}
+
+input,select, textarea{
+  width:100%;
+  padding:9px;
+  background:rgba(0,0,0,0.7);
+  color:#fff;
+  border:2px solid #00ff00;
+  border-radius:10px;
+  margin:10px 0;
+  font-size:1rem;
+  box-sizing:border-box;
+}
+
+input[type="checkbox"]{
+  margin:0 5px 0 0;
+}
+
+textarea{
+  height:150px;
+}
+
+button {
+  background: linear-gradient(45deg,#00ffff,#ff00ff);
+  color:#fff;
+  padding:15px 30px;
+  border-radius:25px;
+  font-size:1.2rem;
+  cursor:pointer;
+  box-shadow:0 0 20px rgba(0,255,255,0.6),0 0 30px rgba(255,0,255,0.6);
+  transition: all 0.3 easi-in-out;
+}
+
+button:hover{
+  transform:scale(1.1);
+box-shadow: 0 0 25px rgba(0, 255, 255, 1), 0 0 40px rgba(255, 0, 255, 1);
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+}
+
+input[type="radio"]:checked, input[type="checkbox"]:checked {
+    background-color: #ff00ff;
+    border-color: #ff00ff;
+}
+
+input, textarea, select {
+    transition: all 0.2s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+.container {
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #00ff00;
+}
+
+.terms-notifications {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.terminos-condiciones, .notifications {
+    font-size: 1rem;
+}
+
+.terminos-condiciones input, .notifications input {
+    margin-right: 10px;
+}
