@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Afiliación</title>
+</head>
+<body>
+    <h1>
+        Veni al Gym! 💪
+    </h1>
+    <form id="afiliacionForm">
+        <div class="datos-container">
+            <div class="container">
+                <span class="text">🙋🏼‍♂️Datos personales👀</span>
+                <div class="nombre-usuario">
+                    <label for="nombre">Nombre:*</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div class="apellido-usuario">
+                    <label for="apellido">Apellido:*</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                </div>
+                <div class="documento-usuario">
+                    <label for="nombre">Documento:*</label>
+                    <input type="text" name="documento" id="documento" required>
+                </div>
+                <div class="nacionalidad-usuario">
+                    <label for="nacionalidad">Nacionalidad:*</label>
+                    <select name="nacionalidad" id="nacionalidad">
+                        <option value="" selected disabled>- Seleccionar -</option>
+                    </select>
+                </div>
+                <div class="info-usuario">
+                    <label for="info">Contanos un poco de vos...</label>
+                    <textarea name="info" id="info"></textarea>
+                </div>
+                <div class="genero-usuario">
+                    <label class="label-sexo">Sexo:*</label>
+                    <div class="genero-input">
+                        <input type="radio" name="genero" id="generoFemenino" required>
+                        <label for="generoFemenino">Femenino</label>
+                    </div>
+                    <div class="genero-input">
+                        <input type="radio" name="genero" id="generoMasculino" required>
+                        <label for="generoMasculino">Masculino</label>
+                    </div>
+                    <div class="genero-input">
+                        <input type="radio" name="genero" id="generoOtro" required>
+                        <label for="generoOtro">Otro</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="datos-container">
+            <div class="container">
+                <span class="text">📱Datos de Contacto✉️</span>
+                <div class="telefono-usuario">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="number" id="telefono" placeholder="Código de área y número">
+                </div>
+                <div class="correo-usuario">
+                    <label for="correo">Dirección de correo electrónico:*</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ej: mail@gmail.com" required>
+                </div>
+            </div>
+        </div>
+        <div class="datos-container">
+            <div class="container">
+                <span class="text">🚴Actividades🤸🏼‍♂️</span>
+                <p>Por favor, indica cuales actividades te interesan</p>
+                <p>Sede Palermo:</p>
+                <div class="opciones-actividad">
+                    <label>
+                        <input type="checkbox" name="deporte" id="basquet-palermo">
+                        Básquet
+                    </label>
+                    <label>
+                        <input type="checkbox" name="deporte" id="boxeo">
+                        Boxeo
+                    </label>
+                    <label>
+                        <input type="checkbox" name="deporte" id="futbol-palermo">
+                        Fútbol
+                    </label>
+                    <label>
+                        <input type="checkbox" name="deporte" id="tenis">
+                        Tenis
+                    </label>
+                </div>
+                <p>Sede Rosario:</p>
+                <div class="opciones-actividad">
+                    <label>
+                        <input type="checkbox" name="deporte" id="basquet-rosario">
+                        Básquet
+                    </label>
+                    <label>
+                        <input type="checkbox" name="deporte" id="futbol-rosario">
+                        Fútbol
+                    </label>
+                    <label>
+                        <input type="checkbox" name="deporte" id="rugby">
+                        Rugby
+                    </label>
+                    <label>
+                        <input type="checkbox" name="deporte" id="voley">
+                        Voley
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="terms-notifications">
+            <div class="terminos-condiciones">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">Acepto las condiciones*</label>
+            </div>
+            <div class="notifications">
+                <input type="checkbox" name="notifications" id="notifications">
+                <label for="notifications">Deseo recibir notificaciones</label>
+            </div>
+        </div>
+        <p>
+            *: campo obligatorio
+        </p>
+        <button type="submit">Iniciar Afiliación</button>
+        <button type="reset">Restablecer</button>
+    </form>
+</body>
+</html>
