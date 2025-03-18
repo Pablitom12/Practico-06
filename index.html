@@ -8,45 +8,41 @@
 </head>
 <body>
     <h1>
-        Veni al Gym! 💪
+        Vení al Gym! 💪
     </h1>
     <form id="afiliacionForm">
         <div class="datos-container">
             <div class="container">
                 <span class="text">🙋🏼‍♂️Datos personales👀</span>
-                <div class="nombre-usuario">
+                <div class="form-input">
                     <label for="nombre">Nombre:*</label>
                     <input type="text" name="nombre" id="nombre" required>
                 </div>
-                <div class="apellido-usuario">
+                <div class="form-input">
                     <label for="apellido">Apellido:*</label>
                     <input type="text" name="apellido" id="apellido" required>
                 </div>
-                <div class="documento-usuario">
+                <div class="form-input">
                     <label for="nombre">Documento:*</label>
                     <input type="text" name="documento" id="documento" required>
                 </div>
-                <div class="nacionalidad-usuario">
+                <div class="form-input">
                     <label for="nacionalidad">Nacionalidad:*</label>
                     <select name="nacionalidad" id="nacionalidad">
                         <option value="" selected disabled>- Seleccionar -</option>
                     </select>
                 </div>
-                <div class="info-usuario">
+                <div class="form-input">
                     <label for="info">Contanos un poco de vos...</label>
                     <textarea name="info" id="info"></textarea>
                 </div>
-                <div class="genero-usuario">
+                <div class="form-input">
                     <label class="label-sexo">Sexo:*</label>
                     <div class="genero-input">
                         <input type="radio" name="genero" id="generoFemenino" required>
                         <label for="generoFemenino">Femenino</label>
-                    </div>
-                    <div class="genero-input">
                         <input type="radio" name="genero" id="generoMasculino" required>
                         <label for="generoMasculino">Masculino</label>
-                    </div>
-                    <div class="genero-input">
                         <input type="radio" name="genero" id="generoOtro" required>
                         <label for="generoOtro">Otro</label>
                     </div>
@@ -56,11 +52,11 @@
         <div class="datos-container">
             <div class="container">
                 <span class="text">📱Datos de Contacto✉️</span>
-                <div class="telefono-usuario">
+                <div class="form-input">
                     <label for="telefono">Teléfono:</label>
                     <input type="number" id="telefono" placeholder="Código de área y número">
                 </div>
-                <div class="correo-usuario">
+                <div class="form-input">
                     <label for="correo">Dirección de correo electrónico:*</label>
                     <input type="email" name="correo" id="correo" placeholder="Ej: mail@gmail.com" required>
                 </div>
@@ -119,12 +115,12 @@
                 <input type="checkbox" name="notifications" id="notifications">
                 <label for="notifications">Deseo recibir notificaciones</label>
             </div>
+            <p>*: campo obligatorio</p>
         </div>
-        <p>
-            *: campo obligatorio
-        </p>
-        <button type="submit">Iniciar Afiliación</button>
-        <button type="reset">Restablecer</button>
+        <div class="buttons">
+            <button type="submit">Iniciar Afiliación</button>
+            <button type="reset">Restablecer</button>
+        </div>
     </form>
 </body>
 </html>
