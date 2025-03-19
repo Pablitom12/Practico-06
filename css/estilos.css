@@ -11,7 +11,7 @@ body {
 }
 
 #afiliacionForm{
-    width: 45%;
+    width: 50%;
 }
 
 h1 {
@@ -31,17 +31,18 @@ h1 {
     justify-content: center;
 }
 
+.datos-container:hover{
+    background-color: rgb(164, 190, 184);
+}
+
 .text{
     position: absolute;
-    top: -9px; 
+    top: -9px;
+    left: 2%; 
     color: white;
     background-color: rgb(76, 106, 99); 
     padding:  5px; 
-    font-size: 14px;
-}
-
-.datos-container:hover{
-    background-color: rgb(164, 190, 184);
+    font-size: 1.1em;
 }
 
 .container{
@@ -78,6 +79,12 @@ h1 {
     background-color: rgb(77, 105, 99); 
     color: white; 
     outline: none;
+}
+
+.separador{
+    margin: 30px auto 0 auto;
+    border-top: 15px dotted rgb(213, 225, 222);
+    width: 40%;
 }
 
 .terms-notifications{
