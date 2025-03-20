@@ -56,7 +56,7 @@
         <div class="separador"></div>
         <div class="datos-container">
             <div class="container">
-                <span class="text">📱<b>D</b>atos de <b>C</b>ontacto✉️</span>
+                <legend class="text">📱<b>D</b>atos de <b>C</b>ontacto✉️</legend>
                 <div class="form-input">
                     <label for="telefono">Teléfono:</label>
                     <input type="number" id="telefono" placeholder="Código de área y número">
@@ -70,7 +70,7 @@
         <div class="separador"></div>
         <div class="datos-container">
             <div class="container-actividades">
-                <span class="text">🚴<b>A</b>ctividades🤸🏼‍♂️</span>
+                <legend class="text">🚴<b>A</b>ctividades🤸🏼‍♂️</legend>
                 <p class="texto-actividades">Por favor, indica cuales actividades te interesan</p>
                 <p>Sede Palermo:</p>
                 <div class="opciones-actividad">
@@ -112,20 +112,22 @@
                 </div>
             </div>
         </div>
-        <div class="terms-notifications">
-            <div class="terminos-condiciones">
-                <input type="checkbox" name="terms" id="terms" required>
-                <label for="terms">Acepto las condiciones*</label>
+        <div class="final">
+            <div class="terms-notifications">
+                <div class="terminos-condiciones">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms">Acepto las condiciones*</label>
+                </div>
+                <div class="notifications">
+                    <input type="checkbox" name="notifications" id="notifications">
+                    <label for="notifications">Deseo recibir notificaciones</label>
+                </div>
+                <p>*: campo obligatorio</p>
             </div>
-            <div class="notifications">
-                <input type="checkbox" name="notifications" id="notifications">
-                <label for="notifications">Deseo recibir notificaciones</label>
+            <div class="buttons">
+                <button type="submit">Iniciar Afiliación</button>
+                <button type="reset">Restablecer</button>
             </div>
-            <p>*: campo obligatorio</p>
-        </div>
-        <div class="buttons">
-            <button type="submit">Iniciar Afiliación</button>
-            <button type="reset">Restablecer</button>
         </div>
     </form>
 </body>
