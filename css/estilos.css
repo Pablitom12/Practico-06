@@ -111,7 +111,7 @@ body {
     margin: 0 0 20px 0;
 }
 
-.buttons button{
+button{
     padding: 10px 20px;
     margin: 10px;
     border-radius: 2px;
@@ -121,7 +121,7 @@ body {
     cursor: pointer;
 }
 
-.buttons button:hover{
+button:hover{
     background-color: rgb(213, 225, 222);
     color: rgb(50, 63, 58);
 }

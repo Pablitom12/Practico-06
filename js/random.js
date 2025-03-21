@@ -1,4 +1,4 @@
-const stylesheets = ['css1.css', 'css2.css', 'css3.css'];
+const stylesheets = ['/css/estilos.css', '/css/estilos-futuro.css', '/css/estilos-urbano.css'];
 let currentStyleIndex = 0;
 const styleLink = document.getElementById('style-link');
 const rememberButton = document.getElementById('remember-btn');
