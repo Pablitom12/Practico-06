@@ -109,7 +109,6 @@ select{
 .container input:focus, textarea:focus{
     background-color: rgb(77, 105, 99); 
     color: white; 
-    outline: none;
 }
 
 input:focus::placeholder{
