@@ -104,6 +104,7 @@ select{
     margin: 10px 0;
     border-radius: 6px;
     border: 1px solid rgb(50, 63, 58);
+    direction: rtl;
 }
 
 .container input:focus, textarea:focus{
