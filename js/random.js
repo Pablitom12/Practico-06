@@ -54,3 +54,12 @@ function applyStyle(style) {
     selectElement.value = style;
     radios.forEach(radio => { if (radio.value === style) radio.checked = true; });
 }
+
+const inputInicial = document.getElementById('nombreInicial');
+
+inputInicial.addEventListener('nombre', () => {
+    window.addEventListener('nombre', () => {
+        inputInicial.focus();
+    });
+});
+
