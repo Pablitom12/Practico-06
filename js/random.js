@@ -17,3 +17,11 @@ document.getElementById('toggleRandom').addEventListener('click', () => {
     currentIndex = randomIndex;
     themeLink.setAttribute('href', styles[currentIndex]);
 });
+
+window.onload = function() {
+    const primerInput = document.querySelector('input');
+    if (primerInput) {
+        primerInput.focus();
+    }
+};
+
