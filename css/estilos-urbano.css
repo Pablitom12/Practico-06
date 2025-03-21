@@ -26,6 +26,7 @@ body::before {
     background: rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
+
 h1.title {
     font-family: 'Boldonse', sans-serif;
     color: #e63946; 
@@ -126,11 +127,6 @@ button:hover {
 }
 
 @media (max-width:1169px) {
-
-    h1.title{
-        font-size: 2em;
-    }
-
     #afiliacionForm {
         grid-template-columns: auto;
         flex-direction: column;
@@ -147,11 +143,6 @@ button:hover {
     
     .genero-input{
         font-size: 0.8em;
-    }
-
-    button{
-        font-size: 0.8em;
-        margin-bottom: 20px;
     }
 }
 
